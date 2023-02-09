@@ -17,7 +17,7 @@ export default function ContactList({ filter, removeContact }) {
   );
 }
 
-ContactList.protoTypes = {
+ContactList.propTypes = {
   filter: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
